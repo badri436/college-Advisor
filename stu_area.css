@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+.main {
+  height: 100vh;
+}
+
+.nav {
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+  color: rgb(1, 17, 17);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold;
+  background: rgba(12, 104, 241, 0.637);
+}
+
+.nav > a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.nav > a:hover {
+  background: whitesmoke;
+}
+.footer {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  padding: 0;
+  background: rgba(12, 104, 241, 0.795);
+}
+.main-div {
+  height: 100%;
+}
+.main-div > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-control {
+  width: 200px !important;
+}
+.main-div > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: inherit;
+  font-size: 25px;
+  color: sienna;
+  margin-top: 15px;
+}
+.main-div > div > input,
+label {
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.main-div > div > button {
+  margin-top: 30px;
+}
